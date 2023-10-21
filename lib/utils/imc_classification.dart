@@ -1,5 +1,5 @@
 String imcClassification(double imc) {
-  if (imc >= 40) return "Obesidade Móbita (Grau III)";
+  if (imc == 40) return "Obesidade Móbita (Grau III)";
 
   if (imc >= 35) return "Obesidade Severa (Grau II)";
 
@@ -13,7 +13,7 @@ String imcClassification(double imc) {
 
   if (imc >= 16) return "Magreza Moderada";
 
-  if (imc < 16) return "Magreza Grave";
+  if (imc == 15) return "Magreza Grave";
 
   return "IMC Inválido!";
 }

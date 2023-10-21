@@ -8,7 +8,8 @@
       "name": "imc-dart",
       "request": "launch",
       "type": "dart",
-       "program": "bin/imc_dart.dart"
+      "program": "bin/imc_dart.dart",
+      "console":"terminal"
     }
   ]
 }

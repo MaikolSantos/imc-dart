@@ -1,5 +1,9 @@
-import 'package:imc_dart/imc_dart.dart' as imc_dart;
+import 'package:imc_dart/models/person.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${imc_dart.calculate()}!');
+  var person1 = Person("Fulano");
+
+  person1.setIMC();
+
+  print(person1.toString());
 }
